@@ -47,6 +47,7 @@
 
 #content button {
 	color: #ffffff;
+	background-color: rgba(0, 0, 0, 0);
 	border: 2px solid #ffffff;
 	font-size: 13px;
 	font-weight: 400;
