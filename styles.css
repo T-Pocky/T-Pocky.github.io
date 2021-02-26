@@ -4,10 +4,13 @@ body {
 	margin: 0px;
 	height: 100%;
 	overflow: hidden;
+	background-image: url(Resources/Background01.jpg);
 	background-color: #999999;
-	background-image: url("Resources/Background01.jpg");
+}
+
+/*placeholder {
 	background-repeat: no-repeat;
 	background-origin: middle;
 	background-position: middle;
 	background-size: cover;
-}
+}*/
