@@ -26,8 +26,8 @@
 }
 
 #content iframe {
-	height: 306px;
 	width: 800px;
+	height: auto;
 	margin: 0 auto;
 	display: block;
 }
@@ -41,7 +41,8 @@
 }
 
 #buttons {
-
+	position: relative;
+	display: inline-block;
 }
 
 #content button {
@@ -53,7 +54,10 @@
 	letter-spacing: 3.5px;
 	text-align: center;
 	text-transform: uppercase;
-	padding: 20px;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-right: 1.44em
+	padding-left: 1.44em;
 }
 
 #content button:hover {
