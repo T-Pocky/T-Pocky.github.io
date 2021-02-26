@@ -12,14 +12,13 @@
 #content {
 	position: relative;
 	padding-left: 60%;
-	padding-top: 40%;
 	z-index: 2;
 }
 
 #content h1{
 	color: #ffffff;
 	font-size: 20px;
-	font-weight: 900;
+	font-weight: 800;
 	letter-spacing: 5.5px;
 	text-align: center;
 	text-transform: uppercase;
@@ -58,7 +57,7 @@
 	margin: auto;
 	min-height: 50%;
 	min-width: 50%;
-	opacity: 0.8;
+	opacity: 0.66;
 }
 
 /*placeholder {
