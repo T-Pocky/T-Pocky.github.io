@@ -17,9 +17,9 @@
 
 #content h1{
 	color: #ffffff;
-	font-size: 20px;
-	font-weight: 800;
-	letter-spacing: 5.5px;
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: 6px;
 	text-align: center;
 	text-transform: uppercase;
 
@@ -27,7 +27,7 @@
 
 #content p{
 	color: #ffffff;
-	font-size: 14px;
+	font-size: 13px;
 	font-weight: 400;
 	letter-spacing: 0.64px;
 	text-align: center;
@@ -51,9 +51,6 @@
 #bg img {
 	position: absolute;
 	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
 	margin: auto;
 	min-height: 50%;
 	min-width: 50%;
@@ -61,6 +58,5 @@
 }
 
 /*placeholder {
-	height: 100%;
-	width: 100%;
+
 }*/
