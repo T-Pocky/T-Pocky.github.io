@@ -41,7 +41,7 @@
 }
 
 #buttons {
-	
+
 }
 
 #content button {
@@ -53,11 +53,14 @@
 	letter-spacing: 3.5px;
 	text-align: center;
 	text-transform: uppercase;
+	padding: 20px;
 }
 
 #content button:hover {
 	color: #000000;
 	background-color: #ffffff;
+	transition-duration: .17s, .17s;
+	transition-timing-function: ease-in-out;
 }
 
 #bg {
