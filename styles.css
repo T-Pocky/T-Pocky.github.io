@@ -6,6 +6,7 @@
 	border: 0px;
 	margin: 0px;
 	font-family: 'Nunito Sans', sans-serif;
+	text-rendering: optimizeLegibility;
 }
 
 #content {
