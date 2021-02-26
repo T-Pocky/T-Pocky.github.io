@@ -34,7 +34,10 @@
 }
 
 #content iframe{
-	
+	height: 306px;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #bg {
