@@ -28,6 +28,9 @@ p {
 .container-1 {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+	padding-left: 4%;
+	padding-right: 4%;
 }
 
 .box-1{
@@ -44,10 +47,22 @@ p {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .episode {
-	
+	overflow: hidden;
+	padding-top: 30%;
+	position: relative;
+}
+
+.episode iframe {
+	border: 0;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
 }
 
 .description {
@@ -56,8 +71,6 @@ p {
 
 .buttons {
 	position: relative;
-	display: flex;
-	margin: 0 auto;
 }
 
 .buttons button {
@@ -74,7 +87,6 @@ p {
 	padding-right: 1.2em;
 	padding-left: 1.2em;
 	margin: 0.5em;
-	flex: 0 1 150px;
 }
 
 .buttons button:hover {
