@@ -9,11 +9,15 @@
 	margin: 0px;
 }
 
-.main_wrap iframe{
+#content {
 	position: relative;
 	padding-left: 60%;
 	padding-top: 40%;
 	z-index: 2;
+}
+
+#content iframe{
+	
 }
 
 #bg {
