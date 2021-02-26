@@ -67,7 +67,6 @@ p {
 
 .box-2 {
 	order: 2;
-	margin-top: 30%;
 	overflow-y: auto;
 }
 
@@ -80,15 +79,12 @@ p {
 
 .episode {
 	overflow: hidden;
-	padding-top: 30%;
 	position: relative;
 }
 
 .episode iframe {
 	border: 0;
-	height: 100%;
 	left: 0;
-	position: absolute;
 	top: 0;
 	width: 100%;
 }
@@ -126,7 +122,7 @@ p {
 
 @media (orientation: portrait) {
 	.buttons {
-		width: 90%;
+		width: 88%;
 	}
 	.buttons button {
 		width: 100%;
