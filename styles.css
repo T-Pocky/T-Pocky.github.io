@@ -7,8 +7,9 @@ body {
 	margin: 0;
 	padding: 0;
 	position: relative;
-	overflow: hidden;
-	margin: 0;
+	overflow-x: hidden;
+	overflow-y: auto;
+	text-overflow: ellipsis;
 	height: 100%;
 	font-family: 'Nunito Sans', sans-serif;
 	text-rendering: optimizeLegibility;
@@ -16,6 +17,7 @@ body {
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
+	background-attachment: fixed;
 }
 
 h1 {
@@ -53,7 +55,7 @@ p {
 	padding-left: 5%;
 	padding-right: 5%;
 	padding-top: 1.6%;
-	min-height: 100%;
+	min-height: 80%;
 	max-width: 640px;
 	margin-right: 5%;
 	margin-left: auto;
@@ -65,7 +67,8 @@ p {
 
 .box-2 {
 	order: 2;
-	margin-bottom: 12%;
+	margin-top: 30%;
+	overflow-y: auto;
 }
 
 .subbox-1 {
