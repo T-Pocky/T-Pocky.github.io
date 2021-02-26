@@ -1,3 +1,14 @@
 img {
 	width: 100%;
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+}
+
+body {
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+	height: 100%;
+	overflow: hidden;
 }
