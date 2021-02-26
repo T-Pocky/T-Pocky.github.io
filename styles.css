@@ -15,7 +15,7 @@
 	z-index: 2;
 }
 
-#content h1{
+#content h1 {
 	color: #ffffff;
 	font-size: 18px;
 	font-weight: 600;
@@ -25,7 +25,14 @@
 
 }
 
-#content p{
+#content iframe {
+	height: 306px;
+	width: 800px;
+	margin: 0 auto;
+	display: block;
+}
+
+#content p {
 	color: #ffffff;
 	font-size: 13px;
 	font-weight: 400;
@@ -33,11 +40,19 @@
 	text-align: center;
 }
 
-#content iframe{
-	height: 306px;
-	width: 800px;
-	margin: 0 auto;
-	display: block;
+#content button {
+	color: #ffffff;
+	border: 2px solid #ffffff;
+	font-size: 13px;
+	font-weight: 400;
+	letter-spacing: 3.5px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#content button:hover {
+	color: #000000;
+	background-color: #ffffff;
 }
 
 #bg {
