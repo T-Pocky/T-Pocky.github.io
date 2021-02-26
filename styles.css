@@ -1,5 +1,5 @@
 .main_wrap {
-	background-color: #999999;
+	background-color: #666666;
 	position: relative;
 	overflow: hidden;
 	padding: 0px;
@@ -97,7 +97,7 @@
 	margin: auto;
 	min-height: 50%;
 	min-width: 50%;
-	opacity: 0.75;
+	opacity: 0.8;
 }
 
 /*placeholder {
