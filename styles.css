@@ -1,25 +1,38 @@
-body {
+.main_wrap {
 	background-color: #999999;
 	position: relative;
 	overflow: hidden;
 	height: 100%;
-	width: auto;
-}
-
-body iframe{
-	padding-left: 60%;
-	padding-top: 40%;
-	position: relative;
-	z-index: 2;
-}
-
-body img {
-	position: absolute;
-	left: 0;
-	right: 0;
+	width: 100%;
 	padding: 0px;
 	border: 0px;
 	margin: 0px;
+}
+
+.main_wrap iframe{
+	position: relative;
+	padding-left: 60%;
+	padding-top: 40%;
+	z-index: 2;
+}
+
+#bg {
+	position: fixed;
+	top: -50%;
+	left: -50%;
+	width: 200%;
+	height: 200%;
+}
+
+#bg img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	min-height: 50%;
+	min-width: 50%;
 	opacity: 0.8;
 }
 
