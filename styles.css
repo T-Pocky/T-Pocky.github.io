@@ -37,7 +37,8 @@
 
 #content iframe {
 	width: 800px;
-	height: 120%;
+	height: auto;
+	min-height: 150px;
 	margin: 0 auto;
 	display: block;
 }
@@ -66,8 +67,9 @@
 	text-transform: uppercase;
 	padding-top: 1em;
 	padding-bottom: 1em;
-	padding-right: 1.44em
-	padding-left: 1.44em;
+	padding-right: 3em
+	padding-left: 3em;
+	margin: 0.5em;
 	flex: 0 1 150px;
 }
 
