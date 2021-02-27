@@ -54,8 +54,7 @@ p {
 	align-items: center;
 	padding-left: 5%;
 	padding-right: 5%;
-	padding-top: 1.6%;
-	min-height: 80%;
+	min-height: 66%;
 	max-width: 640px;
 	margin-right: 5%;
 	margin-left: auto;
@@ -63,6 +62,7 @@ p {
 
 .box-1{
 	order: 1;
+	padding-top: 18%;
 }
 
 .box-2 {
